@@ -1,0 +1,7 @@
+query UserDetails {
+	user(id: "1", snapshot: "my-demo") {
+		id
+		name
+		birthDate
+	}
+}
